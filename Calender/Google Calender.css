@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  background-color: #daffef;
+}
+
+.Google-Calender {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 25px repeat(5, 50px);
+  row-gap: 20px;
+  column-gap: 10px;
+}
+
+.day,
+.date {
+  background-color: #5d737e;
+  color: #daffef;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.date {
+  background-color: #fcfffd;
+  color: #5d737e;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
