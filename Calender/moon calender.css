@@ -1,0 +1,31 @@
+body {
+  background-color: #d76a03;
+}
+
+.moon-calender {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 40px repeat(5, 30px);
+  row-gap: 35px;
+  column-gap: 25px;
+  flex-wrap: wrap;
+}
+
+.day,
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bf3100;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.date {
+  background-color: #ec9f05;
+  border-radius: 3px;
+  font-size: 1.5em;
+}
+h1 {
+    color:#F5BB00 ;
+}
